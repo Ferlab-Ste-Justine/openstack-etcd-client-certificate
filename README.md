@@ -1,3 +1,9 @@
+# Renaming
+
+Going forward, this terraform module will be located at: https://github.com/Ferlab-Ste-Justine/etcd-client-certificate
+
+This repo will be in read-only mode, kept around to prevent terraform orchestration not yet migrated to the new repo from breaking.
+
 # About
 
 Given a certificate authority that is recognized by an etcd cluster, this terraform module will provision a client certificate that can be used to authenticate against the etcd cluster as a given user.
